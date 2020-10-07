@@ -25,7 +25,7 @@ public class FindRange extends ConsoleProgram {
 		int firstNumber = readInt("?"); //asking user for the first number
 		if (firstNumber == sentinal) { 
 			println("this is not a valid first value");
-		} //if the first number is the sentinal, displays message
+		} //if the first number is the sentinel, displays message
 		int smallestNumber = firstNumber; //the first number is currently the smallest number
 		int largestNumber = firstNumber; //the first number is also the largest number
 		
@@ -47,13 +47,13 @@ public class FindRange extends ConsoleProgram {
 				if (secondNumber != sentinal) {
 					largestNumber = secondNumber;
 				}
-			//if the new number is larger than the largets number, 
+			//if the new number is larger than the largest number, 
 				//it is now stored as the largest number
 			}
-			if(secondNumber == sentinal) { //if the new number is equal to the sentinal
+			if(secondNumber == sentinal) { //if the new number is equal to the sentinel
 				println ("smallest: " + smallestNumber); //prints out smallest number
-				println ("largest: " + largestNumber); //pringt out largest number
-				firstNumber = sentinal; //assigns "sentinal" to the first number to stop the while loop
+				println ("largest: " + largestNumber); //print out largest number
+				firstNumber = sentinal; //assigns "sentinel" to the first number to stop the while loop
 			}
 			
 		}

@@ -11,6 +11,8 @@
 import acm.program.*;
 import acm.graphics.*;
 import acm.util.*;
+
+
 public class RandomCircles extends GraphicsProgram {
 /** Number of circles */
 	private static final int NCIRCLES = 10;
